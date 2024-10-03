@@ -1,0 +1,52 @@
+*{
+    background-color: #545454;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.transp{
+    background-color: transparent;
+}
+
+/* Nav */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.62rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#logo-principal {
+    display: flex;
+    align-items: center;
+}
+
+#logo-principal img {
+    max-width: 7rem;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    flex-grow: 1; 
+}
+
+#botoes-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 0.5rem;
+}
+
+/* Header */
+header {
+    margin-top: 60px;
+}
